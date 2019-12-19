@@ -1,0 +1,15 @@
+spring:
+##mysql
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/rental?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: jing16
+#jpa
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+logging:
+  level.org.hibernate.SQL: debug
+
